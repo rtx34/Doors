@@ -19,12 +19,10 @@ namespace Door
             bool DoorLocked = false;
             bool DoorUnlocked = false;
 
-
-
             if (PAS == 1)
             {
                 DoorOpen = true;
-                Console.WriteLine("Door Open");
+                Console.WriteLine("Door is open");
                 if (DoorLocked = true)
                 {
                     Console.WriteLine("error");
@@ -32,18 +30,18 @@ namespace Door
             }
             if (PAS == 2)
             {
-                doorClosed = true;
-                Console.WriteLine("Door Closed");
+                DoorClosed = true;
+                Console.WriteLine("Door is closed");
             }
             if (PAS == 3)
             {
                 DoorLocked = true;
-                Console.WriteLine("Door Locked");
+                Console.WriteLine("Door is locked");
             }
             if (PAS == 4)
             {
                 DoorUnlocked = true;
-                Console.WriteLine("Door Unlocked");
+                Console.WriteLine("Door is unlocked");
             }
 
             
