@@ -43,14 +43,6 @@ namespace Door
                 DoorUnlocked = true;
                 Console.WriteLine("Door is unlocked");
             }
-
-            
-            
-            
-            
-
-
-
         }
     }
 }
